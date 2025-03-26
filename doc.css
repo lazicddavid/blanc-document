@@ -1,4 +1,5 @@
 body {
+  font-family: sans-serif;
   max-width: 1200px;
   margin: 50px auto;
   box-sizing: border-box;
@@ -21,6 +22,9 @@ header {
 }
 
 .nav-list {
+  text-align: left;
+  font-weight: 100;
+
   margin: 60px auto;
   color: white;
   gap: 40px;
@@ -31,15 +35,20 @@ header {
 }
 
 .nav-list li {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .nav-list a {
   text-decoration: none;
   color: white;
 }
+
 .nav-list a i {
   margin-right: 15px;
+}
+
+.nav-list a:hover {
+  color: cyan;
 }
 
 .gallery-img {
