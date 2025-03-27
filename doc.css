@@ -6,9 +6,15 @@ body {
 }
 
 header {
-  height: 50px;
+  height: 60px;
   width: 100%;
   border: 1px solid black;
+}
+
+.header-img {
+  margin: 10px 20px;
+  height: 40px;
+  width: 50px;
 }
 
 .content {
