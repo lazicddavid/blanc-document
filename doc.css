@@ -6,6 +6,8 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
   height: 60px;
   width: 100%;
   border: 1px solid black;
@@ -15,6 +17,32 @@ header {
   margin: 10px 20px;
   height: 40px;
   width: 50px;
+}
+
+.search-bar {
+  margin: 20px;
+  align-items: center;
+  width: 300px;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+
+  border: none;
+  border-radius: 20px;
+  background-color: #f4f1f1;
+  font-size: 16px;
+  color: #444;
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #999;
 }
 
 .content {
