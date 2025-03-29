@@ -177,13 +177,23 @@ header {
 }
 
 .hotel-info {
-  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  gap: 20px;
   border: 1px solid black;
   width: 100%;
   height: 60px;
 }
 
 .stars {
-  display: flex;
+  color: red;
+  cursor: pointer;
+}
+
+.location .btn {
+  cursor: pointer;
   align-items: center;
+  border: none;
+  background-color: white;
 }
