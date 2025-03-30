@@ -236,3 +236,29 @@ header {
   gap: 20px;
   display: flex;
 }
+
+.details {
+  height: 450px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.description {
+  color: #666;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.left-list,
+.right-list {
+  font-size: medium;
+  color: #666;
+  text-decoration: none;
+  list-style: none;
+  line-height: 1.5;
+  list-style: ;
+}
+
+.list-about-hotel {
+  display: flex;
+}
