@@ -309,6 +309,7 @@ header {
 }
 
 .left-comments {
+  margin: 20px auto;
   font-size: small;
   display: flex;
   align-items: center;
@@ -335,14 +336,15 @@ header {
   background-color: white;
   border-radius: 6px;
   padding: 25px 20px;
+  margin-bottom: 40px;
 }
 
 .quote-icon {
   font-size: 150px;
   color: #eee;
   position: absolute;
-  top: -5px;
-  left: 5px;
+  top: -60px;
+  left: 0;
 }
 
 .comment-text {
@@ -400,6 +402,7 @@ header {
 }
 
 .show-all {
+  margin: 20px auto;
   color: #e91e63;
   font-size: 14px;
   font-weight: 600;
